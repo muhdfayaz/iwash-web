@@ -1,0 +1,4 @@
+[build.environment]
+  # NEXT_PUBLIC_BASE_URL is the public ERP host that item photos are served
+  # from, so Next.js inlines it into the rendered pages by design.
+  SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_BASE_URL"
